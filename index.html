@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Evidencias - Natalie Osuna</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a90e2, #50e3c2);
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            flex: 1;
+            width: 100%;
+        }
+
+        .modules-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #2c3e50;
+            font-size: 1.4rem;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .practice-list {
+            list-style: none;
+        }
+
+        .practice-list li {
+            margin-bottom: 0.8rem;
+        }
+
+        .practice-list a {
+            display: block;
+            padding: 0.6rem 1rem;
+            background-color: #f8f9fa;
+            color: #4a90e2;
+            text-decoration: none;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .practice-list a:hover {
+            background-color: #4a90e2;
+            color: white;
+            padding-left: 1.2rem;
+        }
+
+        .empty-state {
+            color: #7f8c8d;
+            font-style: italic;
+            padding: 1rem 0;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0.3rem 0;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio de Evidencias</h1>
+        <p>Desarrollo e Implementación de Aplicaciones Web</p>
+    </header>
+
+    <main>
+        <div class="modules-container">
+            <!-- Bloque 1: Construye Aplicaciones Web -->
+            <section class="card">
+                <h2>Construye Aplicaciones Web</h2>
+                <ul class="practice-list">
+                    <li><a href="index.html" target="_blank">Práctica 1 (index.html)</a></li>
+                    <li><a href="index2.html" target="_blank">Práctica 2 (index2.html)</a></li>
+                    <li><a href="index3.html" target="_blank">Práctica 3 (index3.html)</a></li>
+                    <li><a href="index4.html" target="_blank">Práctica 4 (index4.html)</a></li>
+                    <li><a href="index5.html" target="_blank">Práctica 5 (index5.html)</a></li>
+                    <li><a href="index6.html" target="_blank">Práctica 6 (index6.html)</a></li>
+                    <li><a href="index7.html" target="_blank">Práctica 7 (index7.html)</a></li>
+                    <li><a href="index8.html" target="_blank">Práctica 8 (index8.html)</a></li>
+                    <li><a href="index9.html" target="_blank">Práctica 9 (index9.html)</a></li>
+                </ul>
+            </section>
+
+            <!-- Bloque 2: Implementa Aplicaciones Web -->
+            <section class="card">
+                <h2>Implementa Aplicaciones Web</h2>
+                <p class="empty-state">Prácticas y evidencias de implementación próximamente disponibles.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Alumna:</strong> Osuna Soto Natalie Daniela</p>
+        <p><strong>Grupo:</strong> 5CPM</p>
+    </footer>
+
+</body>
+</html>
